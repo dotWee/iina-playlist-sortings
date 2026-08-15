@@ -44,7 +44,7 @@ jobs:
       - name: Package Plugin
         run: |
           mkdir -p release-assets
-          zip -r "release-assets/playlist-sort.iinaplgz" Info.json main.js README.md
+          zip -r "release-assets/playlist-sort.iinaplgz" Info.json main.js README.md help.html LICENSE
           unzip -l release-assets/playlist-sort.iinaplgz
 
       - name: Create GitHub Release

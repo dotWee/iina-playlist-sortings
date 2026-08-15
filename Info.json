@@ -11,5 +11,5 @@
   "permissions": ["show-osd", "file-system"],
   "ghRepo": "dotWee/iina-playlist-sortings",
   "ghVersion": 1,
-  "helpPage": "https://github.com/dotWee/iina-playlist-sortings"
+  "helpPage": "help.html"
 }
