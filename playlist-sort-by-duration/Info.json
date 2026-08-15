@@ -1,9 +1,0 @@
-{
-  "name": "Playlist Sort by Duration",
-  "identifier": "media.wolfsteiner.lukas.iina.playlist.sortbyduration",
-  "version": "1.0.0",
-  "description": "Adds a context menu item to sort the playlist by video duration.",
-  "author": "Lukas Wolfsteiner",
-  "entry": "main.js",
-  "minIIINAAPIVersion": "1.0.0"
-} 

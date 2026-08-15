@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Playlist Sortings</title>
+    <style>
+        :root {
+            color-scheme: light dark;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+            font-size: 13px;
+            padding: 0;
+            margin: 0;
+        }
+
+        #container {
+            padding: 8px;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="container">
+        <p>
+            Playlist Sortings reorders the current IINA playlist by filename, duration, or file size.
+            Use <code>Plugins → Sort Playlist</code> or right-click in the playlist panel.
+        </p>
+        <p>
+            Filename sorts use the visible name only, with natural number order
+            (<code>episode2</code> before <code>episode10</code>).
+            Duration uses Spotlight metadata, then <code>ffprobe</code> if it is on your <code>PATH</code>.
+            Size uses the local file size. Items without a usable value (streams, remote URLs) are moved to the end.
+            The currently playing item keeps playing after the playlist is rebuilt.
+        </p>
+        <p>
+            More information: <a>https://github.com/dotWee/iina-playlist-sortings</a>
+        </p>
+    </div>
+</body>
+
+</html>
