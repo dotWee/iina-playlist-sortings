@@ -1,9 +1,0 @@
-{
-  "name": "Playlist Sort by Filename",
-  "identifier": "media.wolfsteiner.lukas.iina.playlist.sortbyfilename",
-  "version": "1.0.0",
-  "description": "Adds a context menu item to sort the playlist by filename.",
-  "author": "Lukas Wolfsteiner",
-  "entry": "main.js",
-  "minIIINAAPIVersion": "1.0.0"
-} 

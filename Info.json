@@ -1,0 +1,15 @@
+{
+  "name": "Playlist Sortings",
+  "identifier": "media.wolfsteiner.lukas.iina.playlist.sortings",
+  "version": "1.0.0",
+  "description": "Sort the IINA playlist by filename, duration, or file size from the Plugins menu or the playlist context menu.",
+  "author": {
+    "name": "Lukas Wolfsteiner",
+    "url": "https://github.com/dotWee"
+  },
+  "entry": "main.js",
+  "permissions": ["show-osd", "file-system"],
+  "ghRepo": "dotWee/iina-playlist-sortings",
+  "ghVersion": 1,
+  "helpPage": "https://github.com/dotWee/iina-playlist-sortings"
+}
